@@ -1,4 +1,4 @@
-package lld;
+package lld.basic;
 
 public class ClassesAndObjects {
     // Class: it is a blueprint
