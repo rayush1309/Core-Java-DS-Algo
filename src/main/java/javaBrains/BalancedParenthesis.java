@@ -5,10 +5,10 @@ import java.util.Stack;
 public class BalancedParenthesis {
     public static void main(String[] args) {
         String str="())";
-        System.out.println(isvalid(str));
+        System.out.println(isvalidParenthesis(str));
 
     }
-    public static boolean isvalid(String str){
+    public static boolean isvalidParenthesis(String str){
         Stack<Character> st= new Stack<>();
         for (char c: str.toCharArray()){
             if (c=='('){
