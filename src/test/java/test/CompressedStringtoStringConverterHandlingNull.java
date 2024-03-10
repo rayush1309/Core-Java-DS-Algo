@@ -1,6 +1,6 @@
 package test;
 
-public class CompressedStringtoStringConverterHandlingNull {
+hpublic class CompressedStringtoStringConverterHandlingNull {
     public static void main(String[] args) {
         String str = null;
         System.out.println(stringManipulation2(str));

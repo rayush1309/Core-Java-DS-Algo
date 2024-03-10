@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/https:/github.com/rayush1309/Core-Java-DS-Algo/settings" vcs="Git" />
   </component>
 </project>
