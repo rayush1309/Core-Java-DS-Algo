@@ -2,16 +2,16 @@ package test772.test772;
 
 import java.util.Stack;
 
-public class test77five {
+public class ValidParenthesisModifiedtest77five {
     public static void main(String[] args) {
-        String str="ghfgh(fga[(ag])agng";
+        String str="ghfgh(fga[(a0)])agng";
         System.out.println(isValid(str));
     }
     public static  boolean isValid(String str){
         Stack<Character> st= new Stack<>();
         for (int i=0;i<str.length();i++) {
             char ch = str.charAt(i);
-            if (!Character.isAlphabetic(ch)) {
+            if (!Character.isLetterOrDigit(ch)) {
                 if (ch == '(' || ch == '{' || ch == '[') {
                     st.push(ch);
 
