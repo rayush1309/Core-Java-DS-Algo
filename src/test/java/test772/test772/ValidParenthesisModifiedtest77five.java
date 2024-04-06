@@ -11,7 +11,7 @@ public class ValidParenthesisModifiedtest77five {
         Stack<Character> st= new Stack<>();
         for (int i=0;i<str.length();i++) {
             char ch = str.charAt(i);
-            if (!Character.isLetterOrDigit(ch)) {
+            if (!(Character.isLetter(ch)||Character.isDigit(ch))) {
                 if (ch == '(' || ch == '{' || ch == '[') {
                     st.push(ch);
 
